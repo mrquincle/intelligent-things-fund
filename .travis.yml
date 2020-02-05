@@ -9,6 +9,7 @@ deploy:
 
 script:
     - JEKYLL_ENV=production bundle exec jekyll build 
+    - echo 'http://intelligentthingsfund.com' > _site/CNAME
 
 notifications:
   email: 
