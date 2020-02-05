@@ -10,6 +10,9 @@ deploy:
 script:
     - JEKYLL_ENV=production bundle exec jekyll build 
     - echo 'http://intelligentthingsfund.com' > _site/CNAME
+    - ls -latr
+    - ls -latr _site
+    - cat _site/index.html
 
 notifications:
   email: 
