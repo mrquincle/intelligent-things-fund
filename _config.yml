@@ -1,7 +1,12 @@
 baseurl: ''
 exclude: ['README.md']
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Intelligent Things Fund'
+
+data:
+    contact:
+        phone: '+31 (0)10 404 94 44'
+        email: 'jan@almende.org'
 
 collections:
   services:
