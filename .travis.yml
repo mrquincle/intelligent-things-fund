@@ -1,0 +1,13 @@
+deploy:
+  provider: pages
+  local_dir: public
+  target_branch: master
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  on:
+    branch: source
+
+notifications:
+  email: 
+    on_success: never
+    on_failure: always
