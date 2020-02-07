@@ -11,7 +11,7 @@ data:
 collections:
   services:
     output: true
-    permalink: /services/:path/
+    permalink: /vision/:path/
   team:
     output: true
     permalink: /team/:path/
